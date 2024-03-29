@@ -7,7 +7,8 @@ Linux commands-Shell scripting
 To practice Linux Commands and Shell Scripting
 
 # DESIGN STEPS:
-
+## Designed By : K MADHAVA REDDY
+## Register Number : 212223240064
 ### Step 1:
 
 Navigate to any Linux environment installed on the system or installed inside a virtual environment like virtual box/vmware or online linux JSLinux (https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192) or docker.
@@ -42,31 +43,31 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/7febbee0-d990-43a3-9078-46bb4a6cb7ea)
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/a855ab8e-3d66-4dc3-b799-9a942b161261)
 
 
 
 cat < file2
 ## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/b6c529cb-1281-4166-8ef3-aaacb4ca29a5)
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/a9546ebb-50e0-487c-9bf7-f040eba81a42)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- ![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/e4dbd937-92d0-4109-ac3f-43b3d4c77288)
-
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/a1ae7427-73d8-48d2-9dc9-42db5a5c37e2)
+ 
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/b1c83744-b0f2-4188-a21a-4e9ad4d95fd5)
 
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/cdfeee7e-c699-4446-ae24-d9f519ab5c07)
  
 diff file1 file2
 ## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/fff33e7f-2cf6-4888-b75d-89ef770a52bc)
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/9cd4f477-2a63-49c3-aa2c-891fcebbc2a7)
 
 
-#Filters
+## Filters
 
 ### Create the following files file11, file22 as follows:
 
@@ -87,20 +88,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/dd68bf9e-3d28-4046-a177-26f1e463ffd4)
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/78bcef79-4ce7-45ff-a430-f949e55a6d77)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/5d7c3b1d-d143-4176-a105-dbb86a97d508)
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/bf18e9e9-5477-46ec-8263-c92a8a8be5cf)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/5090d1eb-9c85-4de5-a4ae-cc10091057af)
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/72b54143-2a43-4b1f-a58f-d13d98a42ab1)
 
 
 cat < newfile 
@@ -115,47 +116,38 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/466cc07f-c59b-4f90-a2bd-6cb6fb2c3892)
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/a1b3fa74-2b57-467d-8e67-631505accd71)
 
 
 
 grep hello newfile 
 ## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/14d7056c-2cd6-4864-9812-b95fe4416327)
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/40c43b51-60ad-447d-9dca-41695a2746e2)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/12eba058-e6d8-45fe-8c43-64f3f5fa5cdf)
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/2e95fad0-d77a-4113-b741-d650d2e9ec78)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/8635dbe5-185c-4d21-a35e-d396f5c2d461)
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/e1f5952f-f93e-4d28-88fa-d15549d9c27e)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/11f85bb2-5334-4771-9cf7-0b4d249e9807)
-
-
-
-
-grep -R ubuntu /etc
-## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/2819e932-9403-4e03-9589-b42004d97fe0)
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/5ff9cc6b-7413-47d3-b32f-619d385ff3d8)
-
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/541fc42b-e974-4c49-acff-f66cb80781de)
 
 
 grep -w -n world newfile   
 ## OUTPUT
-![image](https://github.com/Madhavareddy09/OS-Linux-commands-Shell-script/assets/145742470/49a1619c-98cd-4338-a1f7-d9f84c1caf57)
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/7d2494b9-20cc-4a2b-a878-72cb45c4d08e)
 
 
 cat < newfile 
@@ -179,59 +171,71 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/07b1ca4c-a736-4265-9c1d-58ea86f3e15b)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/3a09f766-999a-4075-8fe9-485c0b96fcde)
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/800ff245-81fd-4271-8325-bfe9a98117c0)
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/df43f847-cabf-48aa-bc92-8416ce16076c)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/c7c027c9-af38-4712-aa04-dbb9dc870c09)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/d9f68051-a4f0-4127-bb81-ddade5a000bf)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/6f04d417-b882-4a22-92df-adee2fec0489)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/099c9882-2f9c-43e6-b7d6-00044298a35c)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/6daddf0c-bb8e-4109-8214-cdf5c6bbf4a0)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/d981cef0-472e-439e-9577-7062131609ec)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/17c6707b-b486-4304-bab8-388175ea40c3)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/2908b09d-d86e-4cb5-b24a-a629b773d921)
 
 
 cat > file23
@@ -250,79 +254,95 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/12af3f1c-f919-4cbc-949b-c8e557ff46d4)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/d9df74bc-644d-4b1c-9a47-bcb5a0b8f330)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/0c8b152f-48a5-464f-b9a5-179f80d59d28)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/46c70de8-7b64-4928-96f0-0b8a05324eee)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/3fb4f466-dc60-4a90-9b28-102cd8e05cf0)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/088a5c04-8f9e-4b03-bc81-89a4580dd429)
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/02ba7daa-7898-4d8f-b78f-3faf2459eb1d)
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/54f4a6a8-2f7b-4f52-827b-21378895bc96)
 
 
 
 seq 10 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/f1d773d3-5795-4f90-8d24-9c6616da8863)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/059de049-0a88-40c0-b4f6-c250d22597d5)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/61da2d56-9c95-40aa-a2bd-28c6d856c948)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/d7d613d4-5096-49a7-a9f7-8b1954aff317)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/b22b55b6-fa66-46c0-ab71-4b7ce943b3d0)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/33d649a0-a989-4cec-96c6-8a33b7d4cb63)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/abdd6050-e3b8-458b-a7b0-74c3b6def6a7)
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/92b0420d-04c4-47dd-bec5-60dfd4583a16)
 
 
 #Sorting File content
@@ -336,6 +356,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/7275818e-b770-4e4c-8a11-bf0c8670af95)
 
 
 cat > file22
@@ -349,6 +370,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/2c01a6d6-496c-44d8-a2c8-670d8682492c)
 
 
 
@@ -356,6 +378,8 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/ba921dc1-ed0c-423b-a448-353f450f5a78)
+
 
 cat < urllist.txt
 ```
@@ -372,49 +396,23 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/440c4eae-09ea-4b7a-a478-122a8d7b365e)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/ff4de1d2-5712-4724-842c-4dddc0735970)
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
-
-mkdir backupdir
- 
-mv backup.tar backupdir
- 
-tar -tvf backup.tar
-## OUTPUT
-
-
-tar -xvf backup.tar
-## OUTPUT
-
-gzip backup.tar
-
-ls .gz
-## OUTPUT
- 
-gunzip backup.tar.gz
-## OUTPUT
-
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/2e7bb905-3b32-4195-895c-6de3345b2e66)
  
 # Shell Script
-```
-echo '#!/bin/sh' > my-script.sh
-echo 'echo Hello World‘; exit 0 >> my-script.sh
-```
-chmod 755 my-script.sh
-./my-script.sh
-## OUTPUT
 
- 
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -425,6 +423,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/7cdd1c15-fe76-4dd0-830b-1de717ac6502)
 
 
 cat < scriptest.sh 
@@ -463,26 +462,19 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/e2b0d096-6cab-471e-88ca-1d17b474d86e)
 
  
 ls file1
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/0ae3e2dd-750e-4888-aa31-97e402f51bff)
 
 echo $?
-## OUTPUT 
-./one
-bash: ./one: Permission denied
- 
-echo $?
-## OUTPUT 
- 
-abcd
- 
-echo $?
- ## OUTPUT
+## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/6d045897-c8e4-4cf6-943d-e54c198100af)
 
 
- 
+
 # mis-using string comparisons
 
 cat < strcomp.sh 
@@ -511,15 +503,8 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-
-
-
-chmod 755 strcomp.sh
- 
-./strcomp.sh 
 ## OUTPUT
-
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/3b972ee0-50c1-4f57-aa3b-a0948405c34e)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -546,6 +531,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/fc86bda5-fd3e-46a2-be01-fe3fc42dc2bb)
 
 # check if with file location
 cat>ifnested.sh 
@@ -592,6 +578,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/ae5d0860-807f-4750-973f-4ebe6f2fefc3)
 
 
 
@@ -635,7 +622,9 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/46bc8857-b7f1-42ea-87b6-248083536175)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -684,7 +673,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+<img width="269" alt="image" src="https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/4b77bebc-e7ee-4f90-82e9-dedb19711c6f">
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -713,6 +703,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/4019b719-957f-4085-acd2-c69f718a9300)
 
 
 # testing compound comparisons
@@ -728,7 +719,9 @@ fi
 ```
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
+
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/9c820ceb-0e98-4ddc-a1a5-822295fd1e28)
 
 # using the case command
 cat >casecheck.sh 
@@ -748,7 +741,10 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+ ## OUTPUT 
+ ![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/15d5403d-483b-4ed4-bc0e-b423fe9d61bf)
  
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -763,7 +759,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ## OUTPUT 
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/74f67a8a-f401-4b80-bfb4-20be14dc8f3f)
+
  
 cat untiltest.sh 
 ```bash
@@ -777,8 +775,6 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
- 
 cat forin1.sh 
 ```bash
 \#!/bin/bash
@@ -788,7 +784,9 @@ do
 echo The next state is $test
 done
  ```
- 
+## OUTPUT 
+ ![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/b482c1e4-66cb-42f2-b7bb-289e0b04dc43)
+
 $ chmod 755 forin1.sh
  
  
@@ -813,6 +811,9 @@ do
 echo “word:$test”
 done
 ```
+## OUTPUT 
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/2c8d821e-5cfe-4499-9b2b-a16af0ed320c)
+
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
@@ -826,6 +827,9 @@ do
 echo "word:$test"
 done
 ```
+## OUTPUT 
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/6c86dddd-38c0-490b-89ec-651cc6704777)
+
 $ ./forin3.sh 
  
 cat forin1.sh 
@@ -839,29 +843,6 @@ done
 ```
 $ chmod 755 forin1.sh
 
-## OUTPUT
-cat forinfile.sh 
-```bash
-#!/bin/bash
-# reading values from a file
-file="cities"
-for state in `cat $file`
-do
-echo "Visit beautiful $file“
-done
-```
-$ chmod 777 forinfile.sh
-$ cat cities
-Hyderabad
-Alampur
-Basara
-Warangal
-Adilabad
-Bhadrachalam
-Khammam
-
-## OUTPUT
-
 
 cat forctype.sh 
 ```bash
@@ -872,6 +853,9 @@ do
 echo "The value of i is $i"
 done
 ````
+## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/f8a9c12a-b3bf-4201-8d7d-4300454f3b64)
+
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
@@ -885,69 +869,9 @@ do
 echo "$a - $b"
 done
 ```
-$ chmod 755 forctype.sh
-$ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/15faa42f-7752-45b3-9311-6b4e0157ec92)
 
-cat fornested1.sh 
-```bash
-#!/bin/bash
-# nesting for loops
-for (( a = 1; a <= 3; a++ ))
-do
-echo "Starting loop $a:"
-for (( b = 1; b <= 3; b++ ))
-do
-echo " Inside loop: $b"
-done
-done
-```
-$ chmod 755 fornested1.sh
- 
-$ ./fornested1.sh 
- ## OUTPUT
-
- 
-cat forbreak.sh 
-```bash
-#!/bin/bash
-# breaking out of a for loop
-for var1 in 1 2 3 4 5
-do
-if [ $var1 -eq 3 ]
-then
-break
-fi
-echo "Iteration number: $var1"
-done
-echo "The for loop is completed“
-```
-## OUTPUT
-
-$ chmod 755 forbreak.sh
- 
-$ ./forbreak.sh 
- 
-cat forbreak.sh 
-```bash
-#!/bin/bash
-# breaking out of a for loop
-for var1 in 1 2 3 4 5
-do
-if [ $var1 -eq 3 ]
-then
-continue
-fi
-echo "Iteration number: $var1"
-done
-echo "The for loop is completed“
-```
-
- 
-$ chmod 755 forcontinue.sh
- 
-$ ./forcontinue.sh 
-## OUTPUT
  
 cat exread.sh 
 ```bash
@@ -962,20 +886,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
-
- cat exread1.sh
-```bash
-#!/bin/bash
-# testing the read command
-read -p "Enter your name: " name
-echo "Hello $name, welcome to my program. “
-``` 
-$ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/29dfe06b-4477-4e20-bf51-7113bc5caa89)
 
 $ ./exread1.sh 
  
@@ -995,6 +906,8 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/6f185190-338e-4f0b-a946-0c8e341ddb2a)
+
  ./funcex.sh 
 
  
@@ -1012,6 +925,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/843e3586-e907-4dbb-acf6-f3512ea5751c)
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1029,6 +944,9 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/e1b3ae3f-8bca-43da-bf83-70266af97046)
+
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1042,7 +960,10 @@ done
 set +x
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
+![image](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/27e16597-3c31-4136-9db5-f454228a1fcc)
+
+
+./argshift.sh 1 2 3
  
  
 cat > nc.awk
@@ -1073,7 +994,10 @@ bcdfghj
 ubcdfghj
 ```
 awk -f nc.awk data.dat
+
 ## OUTPUT 
+![Screenshot 2024-03-28 150900](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/63b907a4-bc45-484b-9629-28a5978830ec)
+
  
 cat > palindrome.sh
 ```bash
@@ -1101,6 +1025,7 @@ else
 fi
 ```
 ## OUTPUT 
+![Screenshot 2024-03-28 151340](https://github.com/SANTHAN-2006/OS-Linux-commands-Shell-script/assets/80164014/f77c58da-0943-4691-bc6f-681cb96cfe84)
 
 
 # RESULT:
